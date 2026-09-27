@@ -1,0 +1,62 @@
+.title{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.img{
+  width: 100%;
+}
+
+.form{
+  width: min(500px,100%);
+  margin-top: 2rem;
+}
+
+.input-line{
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem 0.1rem;
+  border: none;
+  outline: none;
+  border-bottom: 0.15rem grey solid;
+}
+
+.input-line:focus{
+  border-bottom: 0.15rem blue solid;
+}
+
+
+.loader {
+  /* Size and shape */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  
+  /* Creates the ring effect: 3 sides light gray, 1 side colored */
+  border: 15px solid #E5E7EB;
+  border-top-color: #3B82F6;
+  
+  /* Controls the animation speed and loop */
+  animation: spin 1s linear infinite;
+  display: inline-block;
+}
+
+/* Define the rotation animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.msg{
+  width: fit-content;
+  background-color: blue;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+}
